@@ -1,22 +1,22 @@
 ---
-name: Bug report / Ошибка
-about: Report a reproducible problem / Сообщить о воспроизводимой ошибке
+name: Bug report
+about: Report a reproducible problem
 title: ''
 labels: bug
 assignees: ''
 ---
 
-## What happened / Что произошло
+## What happened
 
-## Steps to reproduce / Шаги воспроизведения
+## Steps to reproduce
 
 1.
 2.
 3.
 
-## Expected behavior / Ожидаемый результат
+## Expected behavior
 
-## Environment / Окружение
+## Environment
 
 - Chrome version:
 - Extension version:
@@ -24,6 +24,6 @@ assignees: ''
 - RANDOM.ORG page URL:
 - Installed from release or built from source:
 
-## Screenshots or errors / Скриншоты или ошибки
+## Screenshots or errors
 
-Remove private information before posting / Удалите личные данные перед публикацией.
+Remove private information before posting.

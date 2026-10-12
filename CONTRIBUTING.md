@@ -1,10 +1,10 @@
 # Contributing
 
-Bug reports, documentation improvements, and focused pull requests are welcome. English and Russian reports are both welcome.
+Bug reports, documentation improvements, and focused pull requests are welcome.
 
 Use Node.js 20 and pnpm 8.15.9. Install dependencies with `pnpm install --frozen-lockfile`. Run `pnpm build`, `pnpm typecheck`, and `pnpm lint:check` before submitting a change. `pnpm lint` automatically fixes some formatting; `lint:check` does not modify files.
 
-Keep changes focused. Describe the problem, resulting behavior, and checks performed. Update both READMEs for user-visible changes. Preserve upstream attribution and third-party licenses. Do not add telemetry without clearly documenting and discussing it.
+Keep changes focused. Describe the problem, resulting behavior, and checks performed. Update the README for user-visible changes. Preserve upstream attribution and third-party licenses. Do not add telemetry without clearly documenting and discussing it.
 
 ## Manual verification
 

@@ -3,7 +3,7 @@
   <h1>NotRandom.org</h1>
   <p><strong>Take control of randomness on RANDOM.ORG.</strong></p>
   <p>A Chrome extension for demonstrating local manipulation of displayed random results.</p>
-  <p><a href="https://github.com/MrDemiurgen/NotRandom.org/releases/latest">Download</a> · <a href="README_RU.md">Русский</a> · <a href="https://github.com/MrDemiurgen/NotRandom.org/issues">Report a bug</a></p>
+  <p><a href="https://github.com/MrDemiurgen/NotRandom.org/releases/latest">Download</a> · <a href="https://github.com/MrDemiurgen/NotRandom.org/issues">Report a bug</a></p>
   <img src="https://img.shields.io/badge/Chrome-Manifest_V3-4285F4?logo=googlechrome&logoColor=white" alt="Chrome Manifest V3">
   <img src="https://img.shields.io/badge/license-Unlicense-blue" alt="The Unlicense">
   <img src="https://img.shields.io/badge/analytics-none-success" alt="No extension analytics">

@@ -1,13 +1,13 @@
 ---
-name: Feature request / Предложение
-about: Suggest an improvement / Предложить улучшение
+name: Feature request
+about: Suggest an improvement
 title: ''
 labels: enhancement
 assignees: ''
 ---
 
-## Problem / Задача
+## Problem
 
-## Suggested change / Предлагаемое изменение
+## Suggested change
 
-## Example / Пример использования
+## Example

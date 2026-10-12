@@ -10,7 +10,7 @@ First public NotRandom.org release, based on azate/anti-random.org.
 - Locally displayed list results with configured values at the top in shuffled order.
 - Original analytics integration removed; fonts bundled locally.
 - Chrome Manifest V3 packaging.
-- English and Russian documentation, privacy notes, and upstream attribution.
+- English documentation, privacy notes, and upstream attribution.
 - Type-compatible list deletion handler and non-mutating development checks.
 - Rebuilt from the supplied source with dependency license notices included.
 
