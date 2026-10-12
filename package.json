@@ -1,0 +1,67 @@
+{
+  "name": "notrandom.org",
+  "displayName": "NotRandom.org",
+  "version": "1.0.0",
+  "description": "Take control of randomness on RANDOM.ORG.",
+  "license": "Unlicense",
+  "author": "Yaroslav Kubytskyi (MrDemiurgen)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrDemiurgen/NotRandom.org.git"
+  },
+  "homepage": "https://github.com/MrDemiurgen/NotRandom.org#readme",
+  "bugs": {
+    "url": "https://github.com/MrDemiurgen/NotRandom.org/issues"
+  },
+  "packageManager": "pnpm@8.15.9",
+  "engines": {
+    "node": "^20.10",
+    "pnpm": "^8.12"
+  },
+  "targets": {
+    "default": {
+      "engines": {
+        "browsers": "defaults"
+      }
+    }
+  },
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build --zip",
+    "package": "plasmo package",
+    "lint": "pnpm lint:eslint",
+    "lint:check": "eslint --ext \".js,.ts,.tsx\" --ignore-path .gitignore .",
+    "typecheck": "tsc --noEmit",
+    "release:package": "node scripts/package-release.mjs",
+    "lint:eslint": "eslint --fix --ext \".js,.ts,.tsx\" --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/lab": "5.0.0-alpha.157",
+    "@mui/material": "^5.15.1",
+    "@plasmohq/storage": "^1.9.0",
+    "plasmo": "0.84.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "typescript": "^5.3.3"
+  },
+  "manifest": {
+    "options_ui": {
+      "open_in_tab": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/.idea
+/.plasmo
+/build
+/node_modules
+.env*
+/.cache
+/dist
+/PUBLICATION-PLAN.md
+/publication-proof.png
+/.pnpm-store
+*.tsbuildinfo
