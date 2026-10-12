@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a reproducible problem
+about: Report a bug or error
 title: ''
 labels: bug
 assignees: ''
@@ -10,20 +10,6 @@ assignees: ''
 
 ## Steps to reproduce
 
-1.
-2.
-3.
+Describe how to reproduce the problem.
 
 ## Expected behavior
-
-## Environment
-
-- Chrome version:
-- Extension version:
-- Operating system:
-- RANDOM.ORG page URL:
-- Installed from release or built from source:
-
-## Screenshots or errors
-
-Remove private information before posting.

@@ -14,7 +14,7 @@ Load `build/chrome-mv3-prod` at `chrome://extensions`, then refresh RANDOM.ORG.
 2. Add numbers `7` and `42`, set range `1–100`, and right-click Generate twice. Verify insertion order and consumption.
 3. Add `7`, set range `10–100`, and right-click. Verify normal generation and preservation of `7`.
 4. Test an empty number queue and normal left-clicks.
-5. Enter a list with distinct strings and configure two of them. Right-click Randomize, then test Again! with newly configured values. Verify that configured strings appear first in either order and settings are cleared.
+5. Enter a list with distinct strings and configure two of them. Right-click Randomize, then test Again! with newly configured values. Verify that configured strings appear first in insertion order and settings are cleared.
 6. Verify individual deletion, duplicate-list validation, and clearing each tab.
 7. Check the extension card and page console for errors.
 

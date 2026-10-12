@@ -1,6 +1,6 @@
 # Privacy
 
-Applies to NotRandom.org 1.0.0 as published in this repository.
+Applies to NotRandom.org 1.0.1 as published in this repository.
 
 ## Extension data
 

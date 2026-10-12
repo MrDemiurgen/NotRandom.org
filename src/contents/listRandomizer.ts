@@ -1,7 +1,7 @@
 import type { PlasmoCSConfig } from 'plasmo';
 import { Storage as InternalStorage } from '@plasmohq/storage';
 import { LIST_RANDOMIZER_RESULTS_STORAGE_KEY } from '~constants';
-import { arrayShuffle, querySelectorOrThrow } from '~utils';
+import { querySelectorOrThrow } from '~utils';
 
 export const config: PlasmoCSConfig = {
   matches: ['https://*.random.org/lists/*'],
@@ -20,7 +20,7 @@ const handleFalsifyResult = (storage: InternalStorage): void => {
       return;
     }
 
-    const values: string[] = arrayShuffle(await storage.get(LIST_RANDOMIZER_RESULTS_STORAGE_KEY) ?? []);
+    const values: string[] = await storage.get(LIST_RANDOMIZER_RESULTS_STORAGE_KEY) ?? [];
     if (!values.length) {
       return;
     }

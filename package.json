@@ -1,7 +1,7 @@
 {
   "name": "notrandom.org",
   "displayName": "NotRandom.org",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Take control of randomness on RANDOM.ORG.",
   "license": "Unlicense",
   "author": "Yaroslav Kubytskyi (MrDemiurgen)",

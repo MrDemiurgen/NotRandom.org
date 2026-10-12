@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 — 2026-10-12
+
+- Fixed List Randomizer to place configured values in insertion order instead of shuffled order.
+
 ## 1.0.0 — 2026-10-12
 
 First public NotRandom.org release, based on azate/anti-random.org.
