@@ -10,6 +10,8 @@
 
 Changes apply only in your browser; RANDOM.ORG's server-side results stay unchanged.
 
+Use this project for demonstrations and learning, and disclose its use to viewers and participants. A screenshot or recording can show a manipulated local result.
+
 ## Features
 
 - **Number queue:** use integers in the order you add them, one per right-click. If the first number is outside the selected range, normal generation runs and the queue is kept.
@@ -25,8 +27,6 @@ Changes apply only in your browser; RANDOM.ORG's server-side results stay unchan
 4. Click **Load unpacked** and select the folder containing `manifest.json`.
 5. Refresh RANDOM.ORG.
 
-Keep the extracted folder. To update, replace its files with the new release, click **Reload** on the extension card, and refresh RANDOM.ORG.
-
 ## Usage
 
 ### Numbers
@@ -39,7 +39,7 @@ For example, a queue of `7, 42` with a range of `1–100` displays `7`, then `42
 
 Open NotRandom.org → **List Randomizer** and add strings from your input list. On the [list randomizer](https://www.random.org/lists/), enter the list, then **right-click Randomize** or **Again!**.
 
-Adding `Alice`, then `Bob`, puts `Alice` first and `Bob` second. This ordering was fixed in **1.0.1**. Re-add your values after each use, and configure no more values than the list contains.
+Adding `Alice`, then `Bob`, puts `Alice` first and `Bob` second. Re-add your values after each use, and configure no more values than the list contains.
 
 ## Privacy
 
